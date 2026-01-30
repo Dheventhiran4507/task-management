@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "696def33ffec875981fdfebe",
+    "name": "Visual Creators",
+    "department": "Designing",
+    "description": "UI/UX and branding excellence.",
+    "createdAt": "2026-01-19T08:45:39.468Z",
+    "__v": 0
+  },
+  {
+    "_id": "696def33ffec875981fdfebf",
+    "name": "Core Engine",
+    "department": "Development",
+    "description": "Building the backbone of TaskFlow.",
+    "createdAt": "2026-01-19T08:45:39.469Z",
+    "__v": 0
+  },
+  {
+    "_id": "696def33ffec875981fdfec0",
+    "name": "Growth Hackers",
+    "department": "Marketing",
+    "description": "Driving user acquisition.",
+    "createdAt": "2026-01-19T08:45:39.469Z",
+    "__v": 0
+  },
+  {
+    "_id": "696def33ffec875981fdfec1",
+    "name": "Support Heroes",
+    "department": "Service",
+    "description": "Dedicated to user success.",
+    "createdAt": "2026-01-19T08:45:39.470Z",
+    "__v": 0
+  },
+  {
+    "_id": "696defa7ffec875981fdfeda",
+    "name": "viedo editing",
+    "department": "Designing",
+    "description": "",
+    "createdAt": "2026-01-19T08:47:35.375Z",
+    "__v": 0
+  },
+  {
+    "_id": "69721da3e58328eac7aac274",
+    "name": "fhgfd",
+    "department": "Service",
+    "description": "",
+    "createdAt": "2026-01-22T12:52:51.619Z",
+    "__v": 0
+  }
+]

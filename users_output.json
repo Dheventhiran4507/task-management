@@ -1,0 +1,35 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[
+  {
+    "_id": "6976021d89b3da33807ba103",
+    "username": "Deva",
+    "password": "$2b$10$v.DWGP1yn5osew/YfGd8nOEFm8WLnnDhPDk.PU3sLfqlv5UnlTKom",
+    "role": "admin",
+    "employeeId": "6976021d89b3da33807ba101",
+    "__v": 0
+  },
+  {
+    "_id": "69760419049403cb59d3add5",
+    "username": "krish",
+    "password": "$2b$10$bUIV2FDN58/LRYv2oJtWquh0JMqigz3R.NizLTsjIX399KP2FzaRG",
+    "role": "employee",
+    "employeeId": "69760419049403cb59d3add3",
+    "__v": 0
+  },
+  {
+    "_id": "69760419049403cb59d3adda",
+    "username": "mahu",
+    "password": "$2b$10$WSU1JY3C75YOsZO2bvhUN.NSmni6N4XdX513Nj0SxtuMufluw6reC",
+    "role": "employee",
+    "employeeId": "69760419049403cb59d3add8",
+    "__v": 0
+  },
+  {
+    "_id": "697771836e3fee719493aaf4",
+    "username": "kishore",
+    "password": "$2b$10$Tpj.JV.zetbpKN64O8eWnOerfhC6e/HXp2wKghOoggGgl4582NJx2",
+    "role": "employee",
+    "employeeId": "697771836e3fee719493aaf2",
+    "__v": 0
+  }
+]

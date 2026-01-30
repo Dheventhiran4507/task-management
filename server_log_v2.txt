@@ -1,0 +1,4 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+≡ƒÜÇ Server running on http://localhost:5000
+Γ£à Connected to MongoDB
+≡ƒæñ Users Seeded Successfully

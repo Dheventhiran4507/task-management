@@ -1,0 +1,11 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+USER_COUNT: 9
+USER: Deva | ROLE: admin | ID: 6976021d89b3da33807ba101
+USER: krish | ROLE: employee | ID: 69760419049403cb59d3add3
+USER: mahu | ROLE: employee | ID: 69760419049403cb59d3add8
+USER: kishore | ROLE: employee | ID: 697771836e3fee719493aaf2
+USER: mathan | ROLE: employee | ID: 69778ac47d26e255b6944540
+USER: aru | ROLE: employee | ID: 697a234564bac58c022635aa
+USER: iman | ROLE: employee | ID: 697ae3bd8019751923cdf569
+USER: balan | ROLE: employee | ID: 697aee978019751923cdf6de
+USER: bharathi | ROLE: employee | ID: 697b0bf6b9788b3379ab0e0e

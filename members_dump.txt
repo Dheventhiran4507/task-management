@@ -1,0 +1,7 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+TEAM_MEMBERS: 5
+MEMBER: kishore | EMAIL: kishore123@gmail.com
+MEMBER: Sarah Chen | EMAIL: sarah.chen@taskflow.office
+MEMBER: Marcus Miller | EMAIL: marcus.miller@taskflow.office
+MEMBER: Elena Rodriguez | EMAIL: elena.rodriguez@taskflow.office
+MEMBER: David Park | EMAIL: david.park@taskflow.office

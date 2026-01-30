@@ -1,0 +1,75 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[
+  {
+    "_id": "6975ffeb57affbd7a50d86b0",
+    "name": "Visual Creators",
+    "department": "Designing",
+    "description": "UI/UX and branding excellence.",
+    "capabilities": [],
+    "createdAt": "2026-01-25T11:35:07.663Z",
+    "__v": 0
+  },
+  {
+    "_id": "6975ffeb57affbd7a50d86b1",
+    "name": "Core Engine",
+    "department": "Development",
+    "description": "Building the backbone of TaskFlow.",
+    "capabilities": [],
+    "createdAt": "2026-01-25T11:35:07.663Z",
+    "__v": 0
+  },
+  {
+    "_id": "6975ffeb57affbd7a50d86b2",
+    "name": "Growth Hackers",
+    "department": "Marketing",
+    "description": "Driving user acquisition.",
+    "capabilities": [],
+    "createdAt": "2026-01-25T11:35:07.664Z",
+    "__v": 0
+  },
+  {
+    "_id": "6975ffeb57affbd7a50d86b3",
+    "name": "Support Heroes",
+    "department": "Service",
+    "description": "Dedicated to user success.",
+    "capabilities": [],
+    "createdAt": "2026-01-25T11:35:07.664Z",
+    "__v": 0
+  },
+  {
+    "_id": "6977791dd33adca85cde6afa",
+    "name": "krish",
+    "department": "Operations",
+    "description": "",
+    "projectName": "frendend",
+    "capabilities": [],
+    "deadline": "2026-01-26T00:00:00.000Z",
+    "createdBy": "krish",
+    "createdAt": "2026-01-26T14:24:29.595Z",
+    "__v": 0
+  },
+  {
+    "_id": "69777cf1c1a92157b0809d56",
+    "name": "kisore",
+    "department": "Operations",
+    "description": "",
+    "projectName": "backend",
+    "capabilities": [],
+    "deadline": "2026-01-30T00:00:00.000Z",
+    "createdBy": "kishore",
+    "createdAt": "2026-01-26T14:40:49.377Z",
+    "__v": 0
+  },
+  {
+    "_id": "69777d5fc1a92157b0809d90",
+    "name": "Mahu",
+    "department": "Operations",
+    "description": "",
+    "projectName": "backend",
+    "capabilities": [],
+    "deadline": "2026-02-13T00:00:00.000Z",
+    "createdBy": "mahu",
+    "createdAt": "2026-01-26T14:42:39.145Z",
+    "__v": 0
+  }
+]

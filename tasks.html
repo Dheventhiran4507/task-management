@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Board - TaskFlow Office</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+    <script>
+        if (!sessionStorage.getItem('user')) {
+            window.location.href = 'portal-selection.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="background-glob"></div>
+
+    <nav class="steps">
+        <a href="index.html" class="step">
+            <span>1</span>
+            Profile
+        </a>
+        <a href="team.html" class="step">
+            <span>2</span>
+            Team
+        </a>
+        <a href="tasks.html" class="step active">
+            <span>3</span>
+            Tasks
+        </a>
+        <a href="timeline.html" class="step">
+            <span>4</span>
+            Timeline
+        </a>
+        <a href="showcase.html" class="step">
+            <span>5</span>
+            Showcase
+        </a>
+        <a href="employee-activity.html" class="step">
+            <span>6</span>
+            Activity Log
+        </a>
+        <a href="reporting.html" class="step">
+            <span>7</span>
+            Reporting
+        </a>
+        <a href="employee_details.html" class="step" id="admin-nav-item" style="display: none;">
+            <span>8</span>
+            Employee Details
+        </a>
+        <button id="logout-btn" class="step"
+            style="border: none; background: transparent; cursor: pointer; color: #ef4444;">
+            <i class="fa-solid fa-power-off"></i>
+            Logout
+        </button>
+    </nav>
+
+    <div class="page-container wide">
+        <div class="card">
+            <div class="card-header">
+                <div class="header-icon">
+                    <i class="fa-solid fa-bars-progress"></i>
+                </div>
+                <div class="header-text">
+                    <h2>Operational Task Board</h2>
+                    <p>Manage workflow across departments with high-fidelity control.</p>
+                </div>
+                <div style="margin-left: auto; display: flex; gap: 12px; align-items: center;">
+                    <button id="testing-dashboard-btn" class="btn-outline"
+                        onclick="window.location.href='testing-queue.html'"
+                        style="color: #ec4899; border-color: #ec489920; background: #ec489908;">
+                        <i class="fa-solid fa-vial"></i> Testing Dashboard
+                    </button>
+                    <button id="add-testing-team-btn" class="btn-primary"
+                        style="background: #ec4899; border-color: #ec4899;">
+                        <i class="fa-solid fa-plus"></i> Add Testing Team
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="filter-bar"
+                style="padding: 15px 40px; background: rgba(0,0,0,0.02); border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 20px;">
+                <span
+                    style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; font-family: var(--font-mono);">Filter
+                    by Team:</span>
+                <div id="team-filter-chips" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <!-- Filter chips generated in app.js -->
+                </div>
+            </div>
+
+            <div id="main-view">
+                <div class="task-board">
+                    <div class="board-column" id="col-todo">
+                        <div class="column-header">
+                            <h3><i class="fa-solid fa-circle-play" style="color: #6366f1;"></i> To Do</h3>
+                            <span class="task-count" id="count-todo">0</span>
+                        </div>
+                        <div class="task-list" id="list-todo"></div>
+                    </div>
+
+                    <div class="board-column" id="col-progress">
+                        <div class="column-header">
+                            <h3><i class="fa-solid fa-spinner" style="color: #f59e0b;"></i> In Progress</h3>
+                            <span class="task-count" id="count-progress">0</span>
+                        </div>
+                        <div class="task-list" id="list-progress"></div>
+                    </div>
+
+                    <div class="board-column" id="col-testing">
+                        <div class="column-header">
+                            <h3><i class="fa-solid fa-vial" style="color: #ec4899;"></i> Testing</h3>
+                            <span class="task-count" id="count-testing">0</span>
+                        </div>
+                        <div class="task-list" id="list-testing"></div>
+                    </div>
+
+                    <div class="board-column" id="col-done">
+                        <div class="column-header">
+                            <h3><i class="fa-solid fa-circle-check" style="color: #10b981;"></i> Completed</h3>
+                            <span class="task-count" id="count-done">0</span>
+                        </div>
+                        <div class="task-list" id="list-done"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Modal Container -->
+    <div id="modal-container" class="modal-overlay"></div>
+
+    <script src="app.js" data-page="tasks"></script>
+</body>
+
+</html>

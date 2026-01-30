@@ -1,0 +1,4 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+Connected
+Total Users: 1
+- Username: kishore, Role: employee, HashStart: $2b$10$GQe...

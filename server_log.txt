@@ -1,0 +1,10 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+🚀 Server running on http://localhost:5000
+✅ Connected to MongoDB
+❌ Seeding Error: TypeError: next is not a function
+    at model.<anonymous> (D:\voxlom\task management - Copy\models\User.js:15:5)
+    at async Kareem.execPre (D:\voxlom\task management - Copy\node_modules\kareem\index.js:65:24)
+    at async model.$__save (D:\voxlom\task management - Copy\node_modules\mongoose\lib\model.js:369:5)
+    at async model.save (D:\voxlom\task management - Copy\node_modules\mongoose\lib\model.js:609:5)
+    at async seedDatabase (D:\voxlom\task management - Copy\server.js:112:17)
+    at async D:\voxlom\task management - Copy\server.js:32:9

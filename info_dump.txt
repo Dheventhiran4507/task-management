@@ -1,0 +1,10 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+--- TEAMS ---
+"lexmanan"
+"bharathi"
+"mahu"
+"uyfyg"
+
+--- TASKS ---
+Team: "mahu" | Status: "done" | Title: "mobileapp"
+Team: "mahu" | Status: "done" | Title: "asujsh"

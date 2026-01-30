@@ -1,0 +1,14 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+{
+  "_id": "697b0bf6b9788b3379ab0e0e",
+  "name": "bharathi",
+  "role": "A/B tesing",
+  "email": "bharathi123@gmail.com",
+  "phone": "8529637410",
+  "status": "online",
+  "department": "Operations",
+  "teamName": "Testing Team",
+  "performanceScore": 0,
+  "joinedAt": "2026-01-29T07:27:50.239Z",
+  "__v": 0
+}
